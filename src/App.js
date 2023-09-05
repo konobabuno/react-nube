@@ -1,5 +1,17 @@
 import './App.css';
 
+function MyButton(){
+  function handleClick(){
+    alert("HOLA:)");
+  }
+
+  return(
+    <button onClick={handleClick}>
+      Soy un boton:os
+    </button>
+  )
+}
+
 function App() {
   return (
     <div className="App">
